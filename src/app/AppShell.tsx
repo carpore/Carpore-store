@@ -25,7 +25,7 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
           <ul className="flex gap-8 text-lg font-bold">
             <li><Link href="/">Home</Link></li>
             <li><Link href="/collections">Collections</Link></li>
-            <li><Link href="/cart">Cart</Link></li>
+            /** <li><Link href="/cart">Cart</Link></li> */
             <li><Link href="/orders">Order History</Link></li>
             <li><Link href="/account">Account</Link></li>
           </ul>
